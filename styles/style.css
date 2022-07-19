@@ -17,7 +17,7 @@ body{
 
 .banner-description h1{
     font-size: 60px;
-    width: 60%;
+    width: 80%;
     margin-bottom: 5px;
     line-height: 80px;
 }
@@ -39,15 +39,15 @@ body{
     color: white;
 }
 .banner-image{
-    width: 100%; 
+    width: 130%; 
 }
 .banner-image img{
-    width: 87%;
-    padding-top: 33px;
+    width: 90%;
+    padding-top: 5px;
     transition: 0.3s;
 }
 .banner-image img:hover{
-    transform: scale(1.1);
+    transform:scale(1.1);
     transition: 0.3s;
 }
 /* Banner End */
