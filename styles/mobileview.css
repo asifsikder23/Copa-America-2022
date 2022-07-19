@@ -1,0 +1,25 @@
+@media only screen and (max-width: 576px) {
+    body{
+    }
+    .banner-container{
+        display: block;
+        width: 334px;
+        height: 472px;
+        border-radius: 10px;
+        text-align: center;
+        margin: 20px;
+        padding: 10px;
+    }
+    .banner-description h1{
+        font-size: 23px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .banner-description p{
+        width: 100%;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: scroll;
+        text-overflow: ellipsis;
+    }
+}

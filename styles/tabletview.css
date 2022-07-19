@@ -1,0 +1,26 @@
+@media only screen and (min-width:577px , max-width: 768px) {
+    body{
+    }
+    .banner-container{
+        background-color: #161616;
+        width: 630px;
+        height: 398px;
+        border-radius: 30px;
+        color: white;
+    }
+    .banner-description h1{
+        font-size: 40px;
+        line-height: 50px;
+        width: 80%;
+    }
+    .banner-description p{
+        width: 80%;
+        font-size: 14px;
+    }
+    .banner-image img{
+        width: 100%;
+        padding-top: 33px;
+        padding-right: 100px;
+        transition: 0.3s;
+    }
+}
