@@ -2,24 +2,28 @@
     body{
     }
     .banner-container{
-        display: block;
-        width: 334px;
-        height: 472px;
-        border-radius: 10px;
+            flex-wrap: wrap;
+    }
+    .banner-description{
+        width: 100%;
+        padding: 20px 30px 0 30px;
         text-align: center;
-        margin: 20px;
-        padding: 10px;
+        margin-bottom: 50px;
     }
     .banner-description h1{
-        font-size: 23px;
-        line-height: 30px;
-        width: 100%;
+        font-size: 7vw;
     }
     .banner-description p{
-        width: 100%;
-        font-size: 14px;
-        white-space: nowrap;
-        overflow: scroll;
-        text-overflow: ellipsis;
+        display: none;
     }
+    .banner-images {
+        width: 100%;
+        text-align: center;
+    }
+    .ellepsis-content p {
+        display: block;
+        margin-bottom: -30px;
+        width: 100%;
+        padding-top: 20px;
+      }
 }

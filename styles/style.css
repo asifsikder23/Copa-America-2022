@@ -14,7 +14,6 @@ body{
     align-items: center;
     padding-left: 106px;
 }
-
 .banner-description h1{
     font-size: 50px;
     width: 80%;
@@ -26,6 +25,14 @@ body{
     width: 100%;
     margin-bottom: 30px;
 }
+.ellepsis p {
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 30px;
+    display: none;
+    color: white
+  }
 .button{
     text-decoration: none;
     background-color:brown;
@@ -51,3 +58,82 @@ body{
     transition: 0.3s;
 }
 /* Banner End */
+/* Artical Section */
+.artical-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 140px;
+  }
+  .artical-button {
+    width: 400px;
+    height: 220px;
+    background: black;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 8px;
+  }
+  .artical-button a {
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    margin: 20px 30px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+  .artical-button a:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.3s;
+  }
+  /* default select button */
+  .artical-button a.active-button {
+    background: brown;
+    color: white;
+  }
+  .artical-blog-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  .blog-section-content {
+    box-shadow: 0px 1px 10px grey;
+    border-radius: 10px;
+  }
+  .blog-section-content img {
+    width: 100%;
+  }
+  .blog-write-content {
+    padding: 10px;
+  }
+  .blog-write-content h1 {
+    padding: 10px 0 20px;
+  }
+  .blog-section-content .blog-button {
+    padding: 3px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .blog-footer-item {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .blog-footer-item .fa-clock {
+    padding-right: 5px;
+  }
+  .blog-footer-item .fa-comment-alt {
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+  
+  /*------------------
+   view all buttton for responsive
+  ----------------- */
+  .all-blog-item-button {
+    margin: 50px 0;
+    text-align: center;
+    display: none;
+  }
