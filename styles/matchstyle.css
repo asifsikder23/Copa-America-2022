@@ -108,7 +108,7 @@ body{
   background: brown;
   color: white;
 }
-  /* match section start----------------------- */
+  /*---- match section start---- */
 .match-schedule {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
