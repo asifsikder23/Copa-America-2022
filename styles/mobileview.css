@@ -1,15 +1,16 @@
 @media screen and (max-width:576px) {
   .banner{
     margin-top: 20px;
+    margin-right: 5px;
 }
   .banner-container{
     display: grid;
-    width: 350px;
-    height: 500px;
+    width: 330px;
+    height: 600px;
     border-radius: 20px;
     color: white;
     align-items: center;
-    padding-left: 0px;
+    padding-left: 3px;
 }
     .banner-description h1{
         display: block;
@@ -35,9 +36,7 @@
     width: 100%; 
 }
 .banner-image img{
-    width: 80%;
-    padding-left: 60px;
-    
+    width: 100%; 
 }
 .buttons{
   display: flex;
@@ -77,6 +76,9 @@
   }
 
    /* footer Section  */
+   .footer{
+    margin: -25px;
+   }
    .footer-section {
     margin-top: 50px;
     text-align: center;
