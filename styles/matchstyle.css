@@ -57,10 +57,10 @@ font-weight: bold;
   color: white;
 }
 .banner-image{
-  width: 130%; 
+  width: 80%; 
 }
 .banner-image img{
-  width: 90%;
+  width: 80%;
   padding-top: 5px;
   transition: 0.3s;
 }

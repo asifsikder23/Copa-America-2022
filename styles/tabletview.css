@@ -28,6 +28,12 @@
       width: 90%;
       margin-bottom: 20px;
     }
+    #upcoming-banner-image{
+        width: 120%;
+      }
+      #upcoming-banner-image img{
+        width: 100%;
+      }
     .banner-image{
         width: 160%;
         padding-right: 50px;

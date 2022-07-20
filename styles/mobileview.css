@@ -33,6 +33,13 @@
     margin-bottom: 20px;
     padding: 0 20px;
   }
+  #upcoming-banner-image{
+    width: 80%;
+    padding-left: 55px;
+  }
+  #upcoming-banner-image img{
+    width: 120%;
+  }
   .banner-image{
     width: 100%; 
 }
