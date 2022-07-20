@@ -148,11 +148,28 @@ body{
   /*------------------
    view all buttton for responsive
   ----------------- */
-  .all-blog-item-button {
-    margin: 50px 0;
-    text-align: center;
-    display: none;
+  .view-all-button{
+    display: flex;
+    justify-content: center;
   }
+  .all-blog-item-button {
+    width: 150px;
+    height: 50px;
+    background: brown;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .all-blog-item-button a{
+    text-decoration: none;
+    color: white;
+  }
+  .all-blog-item-button :hover{
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+  }
+
 
   /* footer Section  */
   .footer-section {
@@ -186,7 +203,7 @@ body{
     color: rgb(179, 127, 228);
   }
   .footer-social-icon {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
   .footer-social-icon a {
     margin: 0 10px;
