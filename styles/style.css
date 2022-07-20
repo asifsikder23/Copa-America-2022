@@ -149,25 +149,22 @@ body{
    view all buttton for responsive
   ----------------- */
   .view-all-button{
-    display: flex;
-    justify-content: center;
+    display: none;
+    margin-top: 20px;
   }
   .all-blog-item-button {
     width: 150px;
     height: 50px;
+    text-align: center;
     background: brown;
     border-radius: 30px;
-    align-items: center;
-    justify-content: center;
+    padding-top: 10px;
+
   }
   .all-blog-item-button a{
     text-decoration: none;
     color: white;
-  }
-  .all-blog-item-button :hover{
-    background-color: green;
-    color: white;
-    transition: 0.3s;
+    
   }
 
   /* footer Section  */
@@ -199,7 +196,7 @@ body{
     text-decoration: none;
   }
   .footer-menu a:hover{
-    color: rgb(179, 127, 228);
+    color: white;
   }
   .footer-social-icon {
     padding-bottom: 25px;

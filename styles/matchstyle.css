@@ -25,8 +25,8 @@ body{
   padding-left: 106px;
 }
 .banner-description h1{
-display: block;
-font-size: 2.5em;
+  display: block;
+  font-size: 2.5em;
 font-weight: bold;
 }
 .banner-description p{
@@ -102,7 +102,7 @@ font-weight: bold;
   transition: 0.3s;
 }
 /* default select button */
-.artical-button a.active-button {
+.artical-button a.upcoming-match-btn {
   background: brown;
   color: white;
 }
@@ -118,6 +118,7 @@ font-weight: bold;
     padding: 30px;
     border-radius: 7px;
     height: 200px;
+    width: 260px;
 }
 
 .match-team {
@@ -173,7 +174,7 @@ font-weight: bold;
     text-decoration: none;
   }
   .footer-menu a:hover{
-    color: rgb(179, 127, 228);
+    color: white;
   }
   .footer-social-icon {
     padding-bottom: 25px;
