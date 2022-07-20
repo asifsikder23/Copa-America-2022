@@ -69,7 +69,7 @@
       #blog-for-responsive{
         display: none;
       }
-      .match-schedule {
+    .match-schedule {
         display: grid;
         justify-content:center;
         grid-template-columns: repeat(2, 1fr);
@@ -81,6 +81,22 @@
         border-radius: 7px;
         height: 200px;
         width: 370px;
+    }
+    .match-team {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .match-team h2 {
+        font-weight: 500;
+        font-size: 15px;
+        margin-left: 10px;
+    } 
+    .ger img,
+    .france img {
+        width: 100%;
+        padding-left: 20px;
     }
 
 }
