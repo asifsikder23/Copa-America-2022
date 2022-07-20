@@ -1,20 +1,22 @@
 @media screen and (max-width:576px) {
-    .banner-container{
-        display: block;
-        justify-content: center;
-        background-color: #161616;
-        width: 90%;
-        height: 600px;
-        color: white;
-        padding-left: 0px;
-        margin: 0 25px;
-    }
+  .banner{
+    margin-top: 20px;
+}
+  .banner-container{
+    display: grid;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+    padding-left: 0px;
+}
     .banner-description h1{
         display: block;
         text-align: center;
         width: 100%;
-        font-size: 8vw;
-        line-height: 60px;
+        font-size: 30px;
+        line-height: 40px;
         padding: 10px 20px;
     }
     .banner-description p{
@@ -23,18 +25,18 @@
     /* ellipse */
 .ellepsis p {
     display:flex;
-    justify-content: center;
-    font-size: 3vw;
-    display:flex;
     width: 100%;
+    font-size: 14px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
   }
   .banner-image{
-    width: 95%; 
+    width: 100%; 
 }
 .banner-image img{
-    width: 100%;
+    width: 80%;
+    padding-left: 60px;
     
 }
 .buttons{
@@ -53,7 +55,7 @@
   .artical-button {
     width: 210px;
     height: 176px;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 254, 254);
     text-align: center;
     margin-right: 0px;
     border-radius: 8px;

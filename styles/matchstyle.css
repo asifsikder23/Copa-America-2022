@@ -7,60 +7,66 @@ body{
 }
 /* Banner Section */
 
+/* Banner Section */
+
+.banner{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 .banner-container{
-    display: flex;
-    background-color: #161616;
-    width: 1100px;
-    height: 500px;
-    border-radius: 20px;
-    margin: 50px 140px;
-    color: white;
-    align-items: center;
-    padding-left: 106px;
+  display: flex;
+  background-color: #161616;
+  width: 1100px;
+  height: 500px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  padding-left: 106px;
 }
 .banner-description h1{
-    font-size: 50px;
-    width: 80%;
-    margin-bottom: 5px;
-    line-height: 70px;
+display: block;
+font-size: 2.5em;
+font-weight: bold;
 }
 .banner-description p{
-    font-size: 12px;
-    width: 100%;
-    margin-bottom: 30px;
+  display: visible;
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 /* ellipse */
 .ellepsis p {
-    width: 400px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 30px;
-    display: none;
-    color: white
-  }
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 30px;
+  display: none;
+  color: white
+}
 .button{
-    text-decoration: none;
-    background-color:brown;
-    color: white;
-    padding: 10px 40px;
-    border-radius: 5px;
-    transition-duration: 0.4s;
+  text-decoration: none;
+  background-color:brown;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
 }
 .button:hover{
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4CAF50;
+  color: white;
 }
 .banner-image{
-    width: 130%; 
+  width: 130%; 
 }
 .banner-image img{
-    width: 90%;
-    padding-top: 5px;
-    transition: 0.3s;
+  width: 90%;
+  padding-top: 5px;
+  transition: 0.3s;
 }
 .banner-image img:hover{
-    transform:scale(1.1);
-    transition: 0.3s;
+  transform:scale(1.1);
+  transition: 0.3s;
 }
 /* Banner End */
 /* Artical Section */
