@@ -97,6 +97,8 @@ body{
     background: brown;
     color: white;
   }
+
+  /* Blog Section */
   .artical-blog-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -118,9 +120,6 @@ body{
   .blog-write-content {
     padding: 10px;
   }
-  .blog-write-content h1 {
-    padding: 10px 0 20px;
-  }
   .blog-section-content .blog-button {
     padding: 3px 20px;
     border-radius: 5px;
@@ -128,7 +127,7 @@ body{
   }
   .blog-footer-item {
     font-size: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
   }
   .blog-footer-item .fa-clock {
     padding-right: 5px;
@@ -137,6 +136,7 @@ body{
     padding-left: 20px;
     padding-right: 5px;
   }
+  /* Blog Section end */
   
   /*------------------
    view all buttton for responsive
