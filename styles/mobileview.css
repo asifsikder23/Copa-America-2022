@@ -1,18 +1,19 @@
 @media screen and (max-width:576px) {
     .banner-container{
         display: block;
+        justify-content: center;
         background-color: #161616;
-        width: 350px;
-        height: 700px;
+        width: 90%;
+        height: 800px;
         color: white;
         padding-left: 0px;
-        margin: 20px 21px;
+        margin: 0 25px;
     }
     .banner-description h1{
         display: block;
         text-align: center;
         width: 100%;
-        font-size: 5vw;
+        font-size: 8vw;
         line-height: 60px;
         padding: 10px 20px;
     }
@@ -22,36 +23,43 @@
     /* ellipse */
 .ellepsis p {
     display:flex;
-    width: 70%;
+    justify-content: center;
+    font-size: 3vw;
+    display:flex;
+    width: 100%;
     text-align: center;
-    overflow: hidden;
     margin-bottom: 30px;
-    
   }
   .banner-image{
-    width: 100%; 
+    width: 95%; 
 }
 .banner-image img{
     width: 100%;
-    padding-top: 5px;
+    
+}
+.buttons{
+  display: flex;
+  justify-content: center;
 }
 .button{
     padding: 8px 30px;
-    margin-left: 90px;
 }
 
 .artical-container {
-    margin-top: 0px;
-    display: block;
+    margin-top: 10px;
+    display: grid;
     justify-content: center;
+    padding: 10px 80px;
   }
   .artical-button {
     width: 210px;
     height: 176px;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     text-align: center;
+    margin-right: 0px;
     border-radius: 8px;
-    padding-top: 5px;
+    padding-top: 0px;
+    margin: 0 100px;
 
   }
   .artical-button a {
@@ -62,5 +70,26 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     margin-top: 24px;
+  }
+
+   /* footer Section  */
+   .footer-section {
+    margin-top: 50px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin-right: 0%;
+  }
+  .footer-section h1 {
+    padding: 40px 50px;
+  }
+  .footer-line {
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.2;
+    margin-bottom:20px;
+  }
+  .footer-menu {
+    display: grid;
   }
 }
